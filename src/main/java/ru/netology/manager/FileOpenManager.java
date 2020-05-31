@@ -8,8 +8,8 @@ import java.util.TreeSet;
 public class FileOpenManager {
     private Map<String, String> extensionApp = new HashMap<String, String>();
 
-    public FileOpenManager(Map<String, String> extensionApp) {
-        this.extensionApp = extensionApp;
+    public Map<String, String> getAllMap(){
+        return extensionApp;
     }
 
     public void addApp(String extension, String app) {
